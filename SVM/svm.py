@@ -28,10 +28,10 @@ print(accuracy)
 
 # print(sum(accuracies)/len(accuracies))
 
-# # PREDICTION
-# example_measures = np.array([[4,2,1,1,1,2,3,2,1] , [4,2,1,2,2,2,3,2,1]])
-# example_measures = example_measures.reshape(len(example_measures), -1)
+# PREDICTION
+example_measures = np.array([[4,2,1,1,1,2,3,2,1] , [4,2,1,2,2,2,3,2,1]])
+example_measures = example_measures.reshape(len(example_measures), -1)
 
-# prediction = model.predict(example_measures)
+prediction = model.predict(example_measures)
 
-# print(prediction)
+print(prediction)
